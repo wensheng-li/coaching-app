@@ -10,7 +10,7 @@ PostgreSQL **Row Level Security (RLS)** is used to enforced data isolation betwe
 
 - Next.js (App Router)
 - React and TypeScript
-- Tailwind CSS (Not much applied in this assignment)
+- Tailwind CSS
 - Supabase Authentication
 - Supabase PostgreSQL
 - PostgreSQL Row Level Security
@@ -77,9 +77,9 @@ Document the tests actually performed, including:
 - Authentication and session management
 - Create, read, update and cancel operations
 - Required-field and date validation
-- Data isolation between two coach accounts _`Check the details below`_
+- Data isolation between two coach accounts _`Check the "Row Level Security Testing" below`_
 - Unauthorised read and update attempts
-- Production build verification
+- Production build verification: **Passed** _`npm run build`_ completed successfully
 
 ### Row Level Security Testing
 
